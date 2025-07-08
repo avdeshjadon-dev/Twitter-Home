@@ -1,0 +1,111 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    height: 100vh;
+    width: 25%;
+}
+.sidebar .upper-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 28%;
+    padding-right: 30px;
+}
+.sidebar .lower-content{
+    height: 60px;
+    width: 100%;
+    margin-left: 28%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 30px;
+}
+.lc-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.profile1{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-lc{
+    color: white;
+}
+.profile1 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    
+}
+.icon1 img{
+    height: 20px;
+    width: 20px;
+}
+.upper-content{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.twitter-logo{
+    margin-bottom: 20px;
+}
+.twitter-logo img{
+    height: 35px;
+    width: 35px;
+}
+.upper-content-heading img{
+    height: 25px;
+    width: 25px;
+}
+.upper-content-heading{
+    color: white;
+    font-size: 22px;
+    font-family: 600;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.post{
+    margin-top: 20px;
+    line-height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    height: 100vh;
+    width: 45%;
+    background-color: antiquewhite;
+}
+.right{
+    height: 100vh;
+    width: 30%;
+    background-color: pink;
+}
