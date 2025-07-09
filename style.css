@@ -146,13 +146,18 @@ body {
   border-right: 1px solid rgb(57, 55, 55);
   box-sizing: border-box;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .middle-start1 {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  position: fixed;
   height: 50px;
-  width: 100%;
+  width: 659px;
   border-bottom: 1px solid rgb(57, 55, 55);
   display: flex;
   align-items: center;
+  z-index: 10;
 }
 .div21 {
   height: 100%;
@@ -176,6 +181,8 @@ body {
   background-color: rgb(26, 25, 25);
 }
 .middle-start2 {
+
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   height: 120px;
@@ -251,7 +258,7 @@ body {
   border-radius: 50%;
 }
 .middle-start4 {
-  height: 250px;
+  height: 30%;
   width: 100%;
   display: flex;
   border-bottom: 1px solid rgb(57, 55, 55);
@@ -308,7 +315,7 @@ body {
   width: 100%;
   height: 150px;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
 }
 .para-div p {
   margin-top: 0;
@@ -319,6 +326,16 @@ body {
   cursor: pointer;
 }
 .lastwala-div {
+  margin-bottom: 8px;
+  margin-right: 8px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lastwala-div7 {
+  margin-top: 15px;
+  margin-bottom: 8px;
   margin-right: 8px;
   flex: 1;
   display: flex;
@@ -333,13 +350,424 @@ body {
   justify-content: center;
   opacity: 0.5;
   gap: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.divnolast:hover {
+  opacity: 1;
 }
 .divnolast img {
   height: 20px;
   width: 20px;
 }
+.middle-start5 {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(57, 55, 55);
+}
+.photo-div {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(57, 55, 55);
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 57px;
+  border-radius: 10px;
+}
+.photo-div img {
+  height: 310px;
+  width: 550px;
+  border-radius: 10px;
+}
+.middle-start6 {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(57, 55, 55);
+}
+.middle-start8 {
+  margin-bottom: 100px;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(57, 55, 55);
+}
+.middle-start7 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(57, 55, 55);
+}
+.photo-div1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(57, 55, 55);
+  margin-left: 10px;
+  margin-right: 57px;
+  border-radius: 10px;
+}
+.photo-div1 img {
+  height: 250px;
+  width: 550px;
+  border-radius: 10px;
+}
+.para-div p {
+  margin-right: 50px;
+}
+.lastwala-div1 {
+  margin-top: 20px;
+  margin-right: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lastwala-div5 {
+  margin-right: 15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lastwala-div8 {
+  margin-right: 15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
 .right {
   height: 100vh;
   width: 30%;
   background-color: black;
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding-right: 70px;
+  padding-left: 30px;
+}
+.right-main {
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.rt-div1 {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  z-index: 9;
+}
+.rt-div1 img {
+  height: 15px;
+  width: 15px;
+  position: fixed;
+  right: 380px;
+  top: 25px;
+  opacity: 0.5;
+}
+.rt-div1 input {
+  height: 40px;
+  width: 290px;
+  border-radius: 50px;
+  border: 1px solid rgb(57, 55, 55);
+  background-color: black;
+  padding-left: 40px;
+}
+.rt-div1 input::placeholder {
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+.rt-div2 button:hover{
+  background-color: #1081cc;
+}
+.rt-div2 {
+  padding-left: 10px;
+  margin-top: 85px;
+  height: 150px;
+  width: 96%;
+  border: 1px solid rgb(57, 55, 55);
+  border-radius: 10px;
+  color: white;
+}
+.rt-div2 .olaa {
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.rt-div2 .ola {
+  padding-right: 40px;
+  font-size: 15px;
+}
+.divrt {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+.rt-div2 button {
+  height: 35px;
+  border: none;
+  width: 110px;
+  border-radius: 50px;
+  background-color: #1d9bf0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.rt-div3 span{
+  color: white;
+}
+.rt-div3 {
+  height: 560px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid rgb(57, 55, 55);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.rt-div3 .sona{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.divrt3-1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.spandiv{
+  color: white;
+}
+.spandiv p{
+  font-size: 15px;
+}
+#live{
+  opacity: 0.5;
+}
+.divrt3-1 img{
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.divrt3-2-1{
+  margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.divrt3-2-1-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  columns: white;
+  padding-left: 20px;
+  line-height: 20px;
+}
+.divrt3-2-1-2{
+    padding-left: 150px;
+}
+.divrt3-2-1-2 img{
+height: 20px;
+width: 20px;
+cursor: pointer;
+}
+#first{
+  font-size: 12px;
+  opacity: 0.5;
+}
+#three{
+  font-size: 12px;
+  opacity: 0.5;
+}
+.divrt3-3{
+  margin-top: 10px;
+  height: 50px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  color: #1d9bf0;
+  cursor: pointer;
+}
+.rt-div4{
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 100%;
+   border: 1px solid rgb(57, 55, 55);
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.rt4-1{
+  height: 50px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.rt4-1 span{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.rt4-2-1 button{
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.rt4-2-1 button:hover{
+  transform: scale(1.025);
+  background-color: rgb(205, 203, 203);
+}
+.rt4-2-1 .sh{
+  margin-left: 30px;
+  height: 35px;
+  width: 85px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+}
+.rt4-2-1 .cr{
+  margin-left: 35px;
+  height: 35px;
+  width: 85px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+}
+.rt4-2-1 .vk{
+  margin-left: 85px;
+  height: 35px;
+  width: 85px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+}
+.rt4-2-1{
+  margin-top: 20px;
+  height: 50px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.ekhidivmai{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+.ekhidivmai img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+#name img{
+  height: 17px;
+  width: 17px;
+}
+#name{
+  font-size: 14px;
+  font-weight: 500;
+}
+#nname{
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.baba{
+  display: flex;
+  gap: 3px;
+}
+.div-s-m{
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d9bf0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.div-s-m:hover{
+  color: #2b95dc;
+}
+.footer-type{
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.f-div-1{
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.f-div-1 div{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+.f-div-1 div:hover{
+  opacity: 0.8;
+}
+.f-div-1 img{
+  height: 15px;
+  width: 15px;
+}
+.liin{
+  height: 15px;
+  width: 1px;
+  background-color: rgb(187, 185, 185);
+}
+#mukhi{
+  gap: 5px;
+}
+.div-grok{
+  height: 40px;
+  width: 40px;
+  z-index: 12;
+  position: fixed;
+  border: 1px solid rgb(179, 178, 178);
+  box-shadow:0 0 4px 2px rgba(179, 178, 178, 0.5);
+  right: 15px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.div-grok img{
+  height: 30px;
+  width: 30px;
 }
