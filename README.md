@@ -2,8 +2,8 @@
 
 A meticulously crafted clone of the Twitter (now X) home page built with pure HTML and CSS.
 
-🌐 **Live Demo**: [Experience the Clone](https://avdeshjadon-dev.github.io/Twitter-Home/)  
-📌 **Repository**: [GitHub Repo](https://github.com/avdeshjadon-dev/Twitter-Home)
+🌐 **Live Demo**: [Experience the Clone](https://avdeshjadon.github.io/Twitter-Home/)  
+📌 **Repository**: [GitHub Repo](https://github.com/avdeshjadon/Twitter-Home)
 
 ## ✨ Features
 
